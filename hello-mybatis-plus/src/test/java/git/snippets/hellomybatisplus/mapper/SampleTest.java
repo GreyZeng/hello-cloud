@@ -1,7 +1,6 @@
 package git.snippets.hellomybatisplus.mapper;
 
 import git.snippets.hellomybatisplus.User;
-import org.junit.Assert;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
