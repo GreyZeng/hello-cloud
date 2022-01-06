@@ -1,15 +1,15 @@
-package git.snippets.hellooptimisticlock;
+package com.example.mybatisplusopt;
 
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
- 
+
 @SpringBootApplication
-@MapperScan("git.snippets.hellooptimisticlock.mapper")
-public class Application {
+@MapperScan("com.example.mybatisplusopt")
+public class MybatisPlusOptApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(MybatisPlusOptApplication.class, args);
     }
 
 }
