@@ -106,8 +106,8 @@ class MybatisPlusOptApplicationTests {
         user.setName("love");
         user.setEmail("123@qq.com");
         User user2 = userMapper.selectById(2L);
-        user2.setName("lover222");
-        user2.setEmail("123@qq.com");
+        user2.setName("2222love");
+        user2.setEmail("2222@qq.com");
         userMapper.updateById(user2);
         //如果没有乐观锁就会覆盖user2的值,这里加入乐观锁不会覆盖user2的值
         userMapper.updateById(user);
