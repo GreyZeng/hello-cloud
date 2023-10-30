@@ -29,7 +29,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.8</maven.compiler.source>
         <maven.compiler.target>1.8</maven.compiler.target>
-        <spring.framework.version>6.0.0</spring.framework.version>
+        <spring.framework.version>6.0.8</spring.framework.version>
         <spring-cloud-alibaba.version>2.2.5.RELEASE</spring-cloud-alibaba.version>
         <spring-boot.version>2.5.12</spring-boot.version>
         <sentinel-core.version>1.8.0</sentinel-core.version>
